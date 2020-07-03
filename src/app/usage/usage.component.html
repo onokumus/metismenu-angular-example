@@ -1,0 +1,47 @@
+<h2>Usage</h2>
+
+<div metis-menu class="faq-menu" toggle="false" triggerElement=".faq-link" parentTrigger=".faq-item"
+  subMenu=".faq-answer">
+
+  <div class="faq-item">
+    <h4 class="faq-link has-arrow">1. Edit <kbd>app.module.ts</kbd> file</h4>
+    <div class="faq-answer text-muted">
+      
+        <pre>
+          <code>
+            import &#x7b; MetismenuAngularModule } from "@metismenu/angular";
+
+            @NgModule&#x28;&#x7b;
+              imports: [
+                MetismenuAngularModule,
+                ...
+              ]
+          })
+          </code>
+        </pre>
+      
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <h4 class="faq-link has-arrow">2. Edit <kbd>angular.json</kbd> file</h4>
+    <div class="faq-answer text-muted">
+      <pre>
+        <code>"styles": [
+          "./node_modules/metismenujs/dist/metismenujs.css",
+          "src/styles.css"
+        ]</code>
+      </pre>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <h4 class="faq-link has-arrow">3. Use <kbd>metis-menu</kbd> selector</h4>
+    <div class="faq-answer text-muted">
+      <pre>
+        <code>&lt;ul metis-menu&gt;</code>
+      </pre>
+    </div>
+  </div>
+
+</div>

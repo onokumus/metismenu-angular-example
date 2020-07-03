@@ -1,0 +1,28 @@
+<div class="app">
+  <aside class="app-side">
+    <metis-menu>
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li>
+        <a href="#" class="has-arrow">How ?</a>
+        <ul>
+          <li><a routerLink="/how/install"> Install </a></li>
+          <li><a routerLink="/how/usage"> Usage </a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="has-arrow"> External Pages </a>
+        <ul>
+          <li><a href="https://github.com/onokumus/metismenujs" target="_blank"
+              rel="noopener noreferrer">metismenujs</a></li>
+          <li><a href="https://github.com/onokumus/metismenu" target="_blank" rel="noopener noreferrer">metismenu
+              jquery</a></li>
+        </ul>
+      </li>
+    </metis-menu>
+  </aside>
+
+  <main class="app-main">
+    <router-outlet></router-outlet>
+  </main>
+</div>

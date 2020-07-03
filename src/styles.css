@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-side {
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  width: 256px;
+  flex-shrink: 0;
+}
+.app-main {
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.metismenu,
+.metismenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.metismenu a {
+  display: block;
+  padding: 1rem;
+  color: rgb(16, 96, 161);
+  text-decoration: none;
+}
+
+.metismenu a:hover {
+  color: crimson;
+}
+
+.metismenu ul a {
+  padding-left: 2rem;
+}
+
+.faq-link {
+  cursor: pointer;
+  padding: 15px;
+  background: #212529;
+  color: #adb5bd
+}
+
+.faq-item.mm-active>.faq-link {
+  background-color: #d9480f;
+  color: #f8f9fa;
+}
